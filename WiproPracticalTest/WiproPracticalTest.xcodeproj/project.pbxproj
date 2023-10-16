@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		D4859F772ADCFFB50021DB6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859F762ADCFFB50021DB6A /* AppDelegate.swift */; };
 		D4859F792ADCFFB50021DB6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859F782ADCFFB50021DB6A /* SceneDelegate.swift */; };
-		D4859F7B2ADCFFB50021DB6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859F7A2ADCFFB50021DB6A /* ViewController.swift */; };
 		D4859F7E2ADCFFB50021DB6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4859F7C2ADCFFB50021DB6A /* Main.storyboard */; };
 		D4859F802ADCFFB60021DB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4859F7F2ADCFFB60021DB6A /* Assets.xcassets */; };
 		D4859F832ADCFFB60021DB6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4859F812ADCFFB60021DB6A /* LaunchScreen.storyboard */; };
 		D4859F8E2ADCFFB70021DB6A /* WiproPracticalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859F8D2ADCFFB70021DB6A /* WiproPracticalTestTests.swift */; };
 		D4859F982ADCFFB70021DB6A /* WiproPracticalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859F972ADCFFB70021DB6A /* WiproPracticalTestUITests.swift */; };
 		D4859F9A2ADCFFB70021DB6A /* WiproPracticalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859F992ADCFFB70021DB6A /* WiproPracticalTestUITestsLaunchTests.swift */; };
+		D4859FAF2ADD34030021DB6A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D4859FAE2ADD34030021DB6A /* Alamofire */; };
+		D4859FB22ADD39380021DB6A /* ProductModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FB12ADD39380021DB6A /* ProductModels.swift */; };
+		D4859FB42ADD39730021DB6A /* ProductListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FB32ADD39730021DB6A /* ProductListVC.swift */; };
+		D4859FB72ADD39FB0021DB6A /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FB62ADD39FB0021DB6A /* ServiceManager.swift */; };
+		D4859FB92ADD3A4B0021DB6A /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FB82ADD3A4B0021DB6A /* CustomErrors.swift */; };
+		D4859FBB2ADD3B070021DB6A /* EndPointTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FBA2ADD3B070021DB6A /* EndPointTypes.swift */; };
+		D4859FBD2ADD3B820021DB6A /* AddProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FBC2ADD3B820021DB6A /* AddProductModel.swift */; };
+		D4859FC12ADD41E70021DB6A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FBF2ADD41E70021DB6A /* ProductCell.swift */; };
+		D4859FC22ADD41E70021DB6A /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4859FC02ADD41E70021DB6A /* ProductCell.xib */; };
+		D4859FC52ADD42B00021DB6A /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FC42ADD42B00021DB6A /* UIImageView+Extension.swift */; };
+		D4859FC72ADD431F0021DB6A /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = D4859FC62ADD431F0021DB6A /* SDWebImage */; };
+		D4859FC92ADD46D40021DB6A /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FC82ADD46D40021DB6A /* ProductViewModel.swift */; };
+		D4859FCB2ADD48E80021DB6A /* EventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FCA2ADD48E80021DB6A /* EventHandler.swift */; };
+		D4859FCD2ADD4C740021DB6A /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4859FCC2ADD4C740021DB6A /* UIViewController+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,6 @@
 		D4859F732ADCFFB50021DB6A /* WiproPracticalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproPracticalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4859F762ADCFFB50021DB6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4859F782ADCFFB50021DB6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D4859F7A2ADCFFB50021DB6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4859F7D2ADCFFB50021DB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4859F7F2ADCFFB60021DB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4859F822ADCFFB60021DB6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,18 @@
 		D4859F932ADCFFB70021DB6A /* WiproPracticalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproPracticalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4859F972ADCFFB70021DB6A /* WiproPracticalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproPracticalTestUITests.swift; sourceTree = "<group>"; };
 		D4859F992ADCFFB70021DB6A /* WiproPracticalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproPracticalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4859FB12ADD39380021DB6A /* ProductModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModels.swift; sourceTree = "<group>"; };
+		D4859FB32ADD39730021DB6A /* ProductListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListVC.swift; sourceTree = "<group>"; };
+		D4859FB62ADD39FB0021DB6A /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		D4859FB82ADD3A4B0021DB6A /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		D4859FBA2ADD3B070021DB6A /* EndPointTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointTypes.swift; sourceTree = "<group>"; };
+		D4859FBC2ADD3B820021DB6A /* AddProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductModel.swift; sourceTree = "<group>"; };
+		D4859FBF2ADD41E70021DB6A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		D4859FC02ADD41E70021DB6A /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		D4859FC42ADD42B00021DB6A /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		D4859FC82ADD46D40021DB6A /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		D4859FCA2ADD48E80021DB6A /* EventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHandler.swift; sourceTree = "<group>"; };
+		D4859FCC2ADD4C740021DB6A /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4859FC72ADD431F0021DB6A /* SDWebImage in Frameworks */,
+				D4859FAF2ADD34030021DB6A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				D4859FA62ADCFFE80021DB6A /* Application */,
+				D4859FC32ADD42570021DB6A /* Extensions */,
+				D4859FB52ADD39D60021DB6A /* Helper */,
 				D4859FAB2ADD00540021DB6A /* Model */,
 				D4859FAA2ADD00430021DB6A /* Views */,
 				D4859FAC2ADD00670021DB6A /* ViewModel */,
@@ -164,7 +192,8 @@
 		D4859FAA2ADD00430021DB6A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D4859F7A2ADCFFB50021DB6A /* ViewController.swift */,
+				D4859FBE2ADD41B30021DB6A /* TableCell */,
+				D4859FB32ADD39730021DB6A /* ProductListVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +201,8 @@
 		D4859FAB2ADD00540021DB6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D4859FB12ADD39380021DB6A /* ProductModels.swift */,
+				D4859FBC2ADD3B820021DB6A /* AddProductModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,8 +210,38 @@
 		D4859FAC2ADD00670021DB6A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D4859FC82ADD46D40021DB6A /* ProductViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D4859FB52ADD39D60021DB6A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D4859FB82ADD3A4B0021DB6A /* CustomErrors.swift */,
+				D4859FB62ADD39FB0021DB6A /* ServiceManager.swift */,
+				D4859FBA2ADD3B070021DB6A /* EndPointTypes.swift */,
+				D4859FCA2ADD48E80021DB6A /* EventHandler.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D4859FBE2ADD41B30021DB6A /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D4859FBF2ADD41E70021DB6A /* ProductCell.swift */,
+				D4859FC02ADD41E70021DB6A /* ProductCell.xib */,
+			);
+			path = TableCell;
+			sourceTree = "<group>";
+		};
+		D4859FC32ADD42570021DB6A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4859FC42ADD42B00021DB6A /* UIImageView+Extension.swift */,
+				D4859FCC2ADD4C740021DB6A /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +260,10 @@
 			dependencies = (
 			);
 			name = WiproPracticalTest;
+			packageProductDependencies = (
+				D4859FAE2ADD34030021DB6A /* Alamofire */,
+				D4859FC62ADD431F0021DB6A /* SDWebImage */,
+			);
 			productName = WiproPracticalTest;
 			productReference = D4859F732ADCFFB50021DB6A /* WiproPracticalTest.app */;
 			productType = "com.apple.product-type.application";
@@ -271,6 +336,10 @@
 				Base,
 			);
 			mainGroup = D4859F6A2ADCFFB50021DB6A;
+			packageReferences = (
+				D4859FAD2ADD34030021DB6A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D4859FB02ADD34210021DB6A /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = D4859F742ADCFFB50021DB6A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4859F832ADCFFB60021DB6A /* LaunchScreen.storyboard in Resources */,
+				D4859FC22ADD41E70021DB6A /* ProductCell.xib in Resources */,
 				D4859F802ADCFFB60021DB6A /* Assets.xcassets in Resources */,
 				D4859F7E2ADCFFB50021DB6A /* Main.storyboard in Resources */,
 			);
@@ -314,9 +384,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4859F7B2ADCFFB50021DB6A /* ViewController.swift in Sources */,
+				D4859FB92ADD3A4B0021DB6A /* CustomErrors.swift in Sources */,
+				D4859FCD2ADD4C740021DB6A /* UIViewController+Extension.swift in Sources */,
+				D4859FB42ADD39730021DB6A /* ProductListVC.swift in Sources */,
+				D4859FC92ADD46D40021DB6A /* ProductViewModel.swift in Sources */,
+				D4859FBD2ADD3B820021DB6A /* AddProductModel.swift in Sources */,
+				D4859FCB2ADD48E80021DB6A /* EventHandler.swift in Sources */,
 				D4859F772ADCFFB50021DB6A /* AppDelegate.swift in Sources */,
+				D4859FBB2ADD3B070021DB6A /* EndPointTypes.swift in Sources */,
 				D4859F792ADCFFB50021DB6A /* SceneDelegate.swift in Sources */,
+				D4859FC52ADD42B00021DB6A /* UIImageView+Extension.swift in Sources */,
+				D4859FC12ADD41E70021DB6A /* ProductCell.swift in Sources */,
+				D4859FB22ADD39380021DB6A /* ProductModels.swift in Sources */,
+				D4859FB72ADD39FB0021DB6A /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +743,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D4859FAD2ADD34030021DB6A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+		D4859FB02ADD34210021DB6A /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.18.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D4859FAE2ADD34030021DB6A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4859FAD2ADD34030021DB6A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D4859FC62ADD431F0021DB6A /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D4859FB02ADD34210021DB6A /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D4859F6B2ADCFFB50021DB6A /* Project object */;
 }
